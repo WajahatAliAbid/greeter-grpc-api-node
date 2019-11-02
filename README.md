@@ -7,8 +7,9 @@ gRPC (gRPC Remote Procedure Calls) is an open source remote procedure call (RPC)
 You can read more about grpc [here](https://grpc.io)
 ## Introduction
 It's a basic Hello World grpc Api where we have a [server](./src/server.js) and a [client](./src/client.js). To run the application first boot up the server by running the `server.js` file. When server is up and running, we can run the client application to send request to server and get response. Steps are as follows
-Open an instance of terminal and run the following command
+Open an instance of terminal and run the following commands
 ```bash
+    npm build ./src/
     node ./src/server.js
 ```
 Open another instance of terminal and run the following command
