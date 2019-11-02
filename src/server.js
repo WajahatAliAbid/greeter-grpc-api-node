@@ -11,7 +11,7 @@ server.addService(helloProto.Greeter.service,{
     sayHello: (call,callback) => {
         let {name} = call.request;
         callback(null,{
-            message = "Hello "+name 
+            message: "Hello "+name 
         });
     }
 });
