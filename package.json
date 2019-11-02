@@ -1,0 +1,23 @@
+{
+  "name": "grpc-node",
+  "version": "1.0.0",
+  "description": "Hello World GRPC Api using node js",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WajahatAliAbid/grpc-node.git"
+  },
+  "author": "Wajahat Ali Abid",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WajahatAliAbid/grpc-node/issues"
+  },
+  "homepage": "https://github.com/WajahatAliAbid/grpc-node#readme",
+  "dependencies": {
+    "grpc": "^1.24.2",
+    "uuid": "^3.3.3"
+  }
+}
