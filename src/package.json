@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/WajahatAliAbid/grpc-node#readme",
   "dependencies": {
+    "@grpc/proto-loader": "^0.5.2",
     "grpc": "^1.24.2"
   }
 }
