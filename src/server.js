@@ -1,5 +1,5 @@
 const grpc = require('grpc');
-const helloProto = grpc.load('hello.proto');
+const { helloProto } = require('./shared');
 const server = new grpc.Server();
 
 

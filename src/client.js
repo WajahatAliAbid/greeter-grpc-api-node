@@ -1,5 +1,6 @@
 const grpc = require('grpc');
-const greeter = grpc.load('hello.proto').Greeter;
+const { helloProto } = require('./shared');
+const greeter = helloProto.Greeter;
 
 const client = new greeter('localhost:50051',
                 grpc.credentials.createInsecure());
