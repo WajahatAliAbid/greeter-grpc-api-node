@@ -2,7 +2,7 @@
   "name": "grpc-node",
   "version": "1.0.0",
   "description": "Hello World GRPC Api using node js",
-  "main": "./src/server.js",
+  "main": "./server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
