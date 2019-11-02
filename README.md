@@ -17,5 +17,5 @@ Open another instance of terminal and run the following command
 ```
 On running the client file, you'll get the following response
 ```json
-{ message: 'Hello World' }
+{ 'message': 'Hello World' }
 ```
