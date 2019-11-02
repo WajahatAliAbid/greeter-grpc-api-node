@@ -1,7 +1,7 @@
 const grpc = require('grpc');
-const greeterService = grpc.load('hello.proto').GreeterService;
+const greeter = grpc.load('hello.proto').Greeter;
 
-const client = new greeterService('localhost:50051',
+const client = new greeter('localhost:50051',
                 grpc.credentials.createInsecure());
 
 let requestMessage = {
