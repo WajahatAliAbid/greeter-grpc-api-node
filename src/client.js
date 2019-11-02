@@ -1,8 +1,8 @@
 const grpc = require('grpc');
-const { helloProto } = require('./shared');
+const { helloProto,serverIP } = require('./shared');
 const greeter = helloProto.Greeter;
 
-const client = new greeter('localhost:50051',
+const client = new greeter(serverIP,
                 grpc.credentials.createInsecure());
 
 let requestMessage = {

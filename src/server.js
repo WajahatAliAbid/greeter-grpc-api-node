@@ -1,11 +1,11 @@
 const grpc = require('grpc');
-const { helloProto } = require('./shared');
+const { helloProto,serverIP } = require('./shared');
 const server = new grpc.Server();
 
 
-server.bind('127.0.0.1:50051',
+server.bind(serverIP,
             grpc.ServerCredentials.createInsecure());
-console.log('server is running at http://127.0.0.1:50051');
+console.log('server is running at '+serverIP);
 
 server.addService(helloProto.Greeter.service,{
     sayHello: (call,callback) => {
