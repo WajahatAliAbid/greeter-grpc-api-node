@@ -1,5 +1,5 @@
 {
-  "name": "grpc-node",
+  "name": "greeter-grpc-api-node",
   "version": "1.0.0",
   "description": "Hello World GRPC Api using node js",
   "main": "./server.js",
