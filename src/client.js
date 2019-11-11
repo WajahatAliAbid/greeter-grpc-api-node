@@ -13,6 +13,6 @@ client.sayHello(requestMessage,(error,responseMessage)=>{
     if(!error){
         console.log(responseMessage);
     }else{
-        cosnoel.error(error);
+        console.error(error);
     }
 });
